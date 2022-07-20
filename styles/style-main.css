@@ -194,9 +194,36 @@ footer hr {
 
 /* group page styles started */
 
+.groups-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.single-group {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: rgb(179, 11, 11);
+    background-color: #B9B9B9;
+    
+}
+
+.single-group h1 {
+    font-size: 40px;
+    border-bottom: 3px solid  #920909;
+}
 
 
-/* index responsive design started for tablet */
+.group-list li {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+/* ------------------------------------Responsive Styles Block -------------------------------------*/
+
+/* index template medium-device responsive*/
 
 @media only screen and (max-width: 768px) {
 
@@ -232,7 +259,7 @@ footer hr {
     }
 }
 
-/* index responsive design started for mobile */
+/* index template small-device responsive */
 
 @media only screen and (max-width: 576px){
     .top-banner {
@@ -287,4 +314,40 @@ footer hr {
         text-align: justify;        
     }
     
+}
+
+/* Upcoming-matches template medium-device responsive */
+
+@media only screen and (max-width: 768px) {
+    .match-list {
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 20px;
+    }
+}
+
+/* Upcoming-matches template small-device responsive */
+@media only screen and (max-width: 576px) {
+    .match-list {
+        grid-template-columns: 1fr;
+        padding-top: 20px;
+    }
+
+}
+
+/* groups template medium-device responsive */
+
+@media only screen and (max-width: 768px) {
+    .groups-list {
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 20px;
+    }
+}
+
+/* groups-matches template small-device responsive */
+@media only screen and (max-width: 576px) {
+    .groups-list {
+        grid-template-columns: 1fr;
+        padding-top: 20px;
+    }
+
 }
