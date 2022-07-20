@@ -192,47 +192,37 @@ footer hr {
     font-weight: 400;
 }
 
+/* group page styles started */
+
+
+
 /* index responsive design started for tablet */
 
 @media only screen and (max-width: 768px) {
 
     .top-banner {
-        width: 90%;
-        margin: 0 auto;
+        width: 734px;
     }
 
-    .banner-content {
-        color: white;
-        padding-left: 20px;
-    }
-
-    .main-content {
-        display: flex;
+    .main-content{
         flex-direction: column;
-
-    }    
+        margin-top: 50px;
+    }
 
     .sidebar {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        background-color: white;
-        border-radius: 10px;
-        width: 230px;
-        height: 64px;
-        padding: 100px 50%;
-        
-    }    
+    flex-direction: row;
+    width: 734px;
+    height: 64px;
+    background-color: white;
+    padding-left: 10px;
+    }
 
     .sidebar a {
         border: 1px solid grey;
-        
+        width: 230px;        
     }
-
     .transfer-news {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-        padding: 40px 20px;
+        padding-left: 3px;
     }
-
 }
