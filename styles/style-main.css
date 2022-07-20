@@ -226,3 +226,37 @@ footer hr {
         padding-left: 3px;
     }
 }
+
+/* index responsive design started for mobile */
+
+@media only screen and (max-width: 576px){
+    .top-banner {
+        flex-direction: column;
+        width: 334px;
+        height: 472px;
+    }
+
+    .banner-content {
+        width: 258px;
+        height: 178px;
+    }
+
+    .sidebar {
+        flex-direction: column;
+        width: 210px;
+        height: 176px;
+        background-color: white;
+        padding-bottom: 30px;
+
+    }
+
+    .transfer-news {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-nav li {
+        display: block;
+        text-align: justify;        
+    }
+    
+}
