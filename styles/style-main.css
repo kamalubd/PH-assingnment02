@@ -1,9 +1,10 @@
+/* ----------------------------------- Universal styles ------------------------------- */
+
 .body {
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;    
 }
 
-/* ----------------------------------**top-banner** section styles -------------------------------*/
+/* ---------------------------------- top-banner section styles -------------------------------*/
 
 .top-banner {
     display: flex;
@@ -54,7 +55,7 @@
     font-size: 1.5rem;
 }
 
-/* -----------------------------------**main-content** section styles------------------------------- */
+/* ----------------------------------- main-content section styles------------------------------- */
 
 .main-content {
     display: flex;
@@ -191,7 +192,7 @@ footer hr {
 }
 
 
-/*------------------------------------ Upcoming Match page Styles ----------------------------*/
+/*------------------------------------ Upcoming Match Template Styles ----------------------------*/
 
 .match-list {
     display: grid;
@@ -215,14 +216,12 @@ footer hr {
 .flags p {
     font-size: 20px;
     font-weight: 500;
-    padding: 0 15px;
-    
+    padding: 0 15px;    
 }
 
 .team-name {
     font-size: 20px;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 .match-time {
@@ -230,7 +229,7 @@ footer hr {
     font-weight: 400;
 }
 
-/*--------------------------------- group page styles started ----------------------------- */
+/*--------------------------------- Group Template styles ------------------------------------ */
 
 .groups-list {
     display: grid;
@@ -261,8 +260,7 @@ footer hr {
     }
 
     .banner-image img {
-        height: 340px;
-        
+        height: 340px;        
     }
 
     .main-content{
@@ -325,8 +323,7 @@ footer hr {
         width: 233px;
         height: 245px;
         padding-top: 20px;
-        padding-bottom: none;
-    
+        padding-bottom: none;    
     }
 
     .sidebar {
@@ -363,12 +360,12 @@ footer hr {
 }
 
 /* Upcoming-matches template small-device responsive */
+
 @media only screen and (max-width: 576px) {
     .match-list {
         grid-template-columns: 1fr;
         padding-top: 20px;
     }
-
 }
 
 /* groups template medium-device responsive */
@@ -381,7 +378,8 @@ footer hr {
     }
 }
 
-/* groups-matches template small-device responsive */
+/* groups template small-device responsive */
+
 @media only screen and (max-width: 576px) {
     .groups-list {
         grid-template-columns: 1fr;
